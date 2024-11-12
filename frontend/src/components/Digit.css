@@ -1,0 +1,158 @@
+:root {
+    --digit-color: #ff0;
+    --digit-bg-color: #333;
+}  
+
+.display {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    width: 60px;
+    height: 100px;
+    border: solid 4px var(--digit-bg-color);
+    background-color: var(--digit-bg-color);
+    overflow: hidden;
+    transform-origin: bottom right;
+}
+
+.display::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 28px;
+    height: 28px;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.display::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 12px;
+    border-top: solid 30px var(--digit-bg-color);
+    border-bottom: solid 30px var(--digit-bg-color);
+    transform: translate(-50%, -50%);
+}
+
+
+.d0::before {
+    background-color: var(--digit-bg-color);
+    box-shadow: -30px -30px var(--digit-color),
+                  0px -30px var(--digit-color),
+                -30px   0px var(--digit-color),
+                  0px  30px var(--digit-color),
+                 30px   0px var(--digit-color),
+                 30px  30px var(--digit-color);
+}
+
+.d1::before {
+    background-color: var(--digit-bg-color);
+    box-shadow: -30px -30px var(--digit-bg-color),
+                  0px -30px var(--digit-color),
+                -30px   0px var(--digit-bg-color),
+                  0px  30px var(--digit-bg-color),
+                 30px   0px var(--digit-color),
+                 30px  30px var(--digit-bg-color);
+}
+
+.d2::before {
+    background-color: var(--digit-color);
+    box-shadow: -30px -30px var(--digit-color),
+                  0px -30px var(--digit-color),
+                -30px   0px var(--digit-bg-color),
+                  0px  30px var(--digit-color),
+                 30px   0px var(--digit-bg-color),
+                 30px  30px var(--digit-color);
+}
+
+.d3::before {
+    background-color: var(--digit-color);
+    box-shadow: -30px -30px var(--digit-color),
+                  0px -30px var(--digit-color),
+                -30px   0px var(--digit-bg-color),
+                  0px  30px var(--digit-bg-color),
+                 30px   0px var(--digit-color),
+                 30px  30px var(--digit-color);
+}
+
+.d4::before {
+    background-color: var(--digit-color);
+    box-shadow: -30px -30px var(--digit-bg-color),
+                  0px -30px var(--digit-color),
+                -30px   0px var(--digit-color),
+                  0px  30px var(--digit-bg-color),
+                 30px   0px var(--digit-color),
+                 30px  30px var(--digit-bg-color);
+}
+
+.d5::before {
+    background-color: var(--digit-color);
+    box-shadow: -30px -30px var(--digit-color),
+                  0px -30px var(--digit-bg-color),
+                -30px   0px var(--digit-color),
+                  0px  30px var(--digit-bg-color),
+                 30px   0px var(--digit-color),
+                 30px  30px var(--digit-color);
+}
+
+.d6::before {
+    background-color: var(--digit-color);
+    box-shadow: -30px -30px var(--digit-color),
+                  0px -30px var(--digit-bg-color),
+                -30px   0px var(--digit-color),
+                  0px  30px var(--digit-color),
+                 30px   0px var(--digit-color),
+                 30px  30px var(--digit-color);
+}
+
+.d7::before {
+    background-color: var(--digit-bg-color);
+    box-shadow: -30px -30px var(--digit-color),
+                  0px -30px var(--digit-color),
+                -30px   0px var(--digit-bg-color),
+                  0px  30px var(--digit-bg-color),
+                 30px   0px var(--digit-color),
+                 30px  30px var(--digit-bg-color);
+}
+
+.d8::before {
+    background-color: var(--digit-color);
+    box-shadow: -30px -30px var(--digit-color),
+                  0px -30px var(--digit-color),
+                -30px   0px var(--digit-color),
+                  0px  30px var(--digit-color),
+                 30px   0px var(--digit-color),
+                 30px  30px var(--digit-color);
+}
+
+.d9::before {
+    background-color: var(--digit-color);
+    box-shadow: -30px -30px var(--digit-color),
+                  0px -30px var(--digit-color),
+                -30px   0px var(--digit-color),
+                  0px  30px var(--digit-bg-color),
+                 30px   0px var(--digit-color),
+                 30px  30px var(--digit-color);
+}
+
+.dot::before {
+    background-color: var(--digit-color);
+    top: 95%;
+    left: 90%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.minus::before {
+    background-color: var(--digit-color);
+    box-shadow: -30px -30px var(--digit-bg-color),
+                  0px -30px var(--digit-bg-color),
+                -30px   0px var(--digit-bg-color),
+                  0px  30px var(--digit-bg-color),
+                 30px   0px var(--digit-bg-color),
+                 30px  30px var(--digit-bg-color);
+}
