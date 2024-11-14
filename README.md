@@ -4,7 +4,8 @@
 
 温度に合わせてキャラクタがリアクションを取ります。
 
-[!['demo'](http://img.youtube.com/vi/Xn22NpE-eiw/0.jpg)](https://www.youtube.com/watch?v=Xn22NpE-eiw)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1UVf-VE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
+
 
 使用されているキャラクタイラストや各プログラムは、すべて私が作成したものです。
 
