@@ -3,16 +3,8 @@
 温湿度計のためのWebUIです。
 
 温度に合わせてキャラクタがリアクションを取ります。
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-    <iframe
-        width="656"
-        height="369"
-        src="https://www.youtube.com/embed/Xn22NpE-eiw"
-        title="温湿度計UI"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen></iframe>
-</div>
+
+<iframe width="656" height="369" src="https://www.youtube.com/embed/Xn22NpE-eiw" title="温湿度計UI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 使用されているキャラクタイラストや各プログラムは、すべて私が作成したものです。
 
