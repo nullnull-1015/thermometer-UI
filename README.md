@@ -4,7 +4,7 @@
 
 温度に合わせてキャラクタがリアクションを取ります。
 
-<iframe width="656" height="369" src="https://www.youtube.com/embed/Xn22NpE-eiw" title="温湿度計UI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[!['demo'](http://img.youtube.com/vi/Xn22NpE-eiw/0.jpg)](https://www.youtube.com/watch?v=Xn22NpE-eiw)
 
 使用されているキャラクタイラストや各プログラムは、すべて私が作成したものです。
 
