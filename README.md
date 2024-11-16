@@ -39,24 +39,20 @@ Reactで書かれたUIです。
 
 温度に合わせてそれぞれキャラクタが以下のようなリアクションを取ります。
 
-0 ℃以下
+0 ℃以下: 寒すぎ！
 
-寒すぎ！
 ![寒すぎ](/frontend/public/2cold.jpeg)
 
-0 ℃より高く 15 ℃以下
+0 ℃より高く 15 ℃以下: 寒い
 
-寒い
 ![寒い](/frontend/public/cold.gif)
 
-15 ℃より高く 30 ℃未満
+15 ℃より高く 30 ℃未満: 快適
 
-快適
 ![快適](/frontend/public/comfort.gif)
 
-30 ℃以上
+30 ℃以上: 暑い
 
-暑い
 ![暑い](/frontend/public/hot.gif)
 
 ## backend
